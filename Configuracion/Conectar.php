@@ -1,10 +1,10 @@
 <?php class Conectar {
 
     private array $datos_para_conectar = [
-        'servidor' => 'localhost:81',
+        'servidor' => 'localhost',
         'nombre_de_la_base_de_datos_en_el_servidor' => 'piezas',
         'nombre_de_usuario' => 'root',
-        'contraseña' => 'root',
+        'contraseña' => '',
         'objeto' => null
     ];
 
